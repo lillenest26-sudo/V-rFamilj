@@ -1,0 +1,27 @@
+[2026-06-22T12:42:07.205Z] Starting dev server with command: pnpm run dev
+[2026-06-22T12:42:09.539Z] > familje-dashboard@1.0.0 dev /home/ubuntu/familje-dashboard
+[2026-06-22T12:42:09.540Z] > NODE_ENV=development tsx watch server/_core/index.ts
+[2026-06-22T12:42:11.307Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-06-22T12:42:11.580Z] Server running on http://localhost:3000/
+[2026-06-22T15:01:47.624Z] 3:01:47 PM [vite] (client) page reload index.html
+[2026-06-22T15:01:47.692Z] 3:01:47 PM [tsx] unlink in ./vite.config.ts Restarting...
+[2026-06-22T15:01:48.055Z] c
+[2026-06-22T15:01:48.055Z] node:internal/modules/run_main:122
+[2026-06-22T15:01:48.055Z] triggerUncaughtException(
+[2026-06-22T15:01:48.055Z] ^
+[2026-06-22T15:01:48.055Z] Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/ubuntu/familje-dashboard/server/_core/index.ts' imported from /home/ubuntu/familje-dashboard/
+[2026-06-22T15:01:48.055Z] at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[2026-06-22T15:01:48.055Z] at moduleResolve (node:internal/modules/esm/resolve:932:10)
+[2026-06-22T15:01:48.055Z] at defaultResolve (node:internal/modules/esm/resolve:1056:11)
+[2026-06-22T15:01:48.055Z] at nextResolve (node:internal/modules/esm/hooks:748:28)
+[2026-06-22T15:01:48.055Z] at resolveBase (file:///home/ubuntu/familje-dashboard/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1782140507926:2:3744)
+[2026-06-22T15:01:48.055Z] at resolveDirectory (file:///home/ubuntu/familje-dashboard/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1782140507926:2:4243)
+[2026-06-22T15:01:48.055Z] at resolveTsPaths (file:///home/ubuntu/familje-dashboard/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1782140507926:2:4984)
+[2026-06-22T15:01:48.055Z] at resolve (file:///home/ubuntu/familje-dashboard/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/esm/index.mjs?1782140507926:2:5361)
+[2026-06-22T15:01:48.055Z] at nextResolve (node:internal/modules/esm/hooks:748:28)
+[2026-06-22T15:01:48.055Z] at Hooks.resolve (node:internal/modules/esm/hooks:240:30) {
+[2026-06-22T15:01:48.055Z] code: 'ERR_MODULE_NOT_FOUND',
+[2026-06-22T15:01:48.055Z] url: 'file:///home/ubuntu/familje-dashboard/server/_core/index.ts'
+[2026-06-22T15:01:48.055Z] }
+[2026-06-22T15:01:48.055Z] Node.js v22.13.0
+[2026-06-22T15:01:52.725Z] Dev server exited with code 0

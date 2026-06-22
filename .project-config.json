@@ -1,0 +1,44 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2aFBWwHfuXXTm4X.root:1en07mwCSY1CwPPEcW57@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/namgH39r8tiAjDyWhb9bCG?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663782304152/namgH39r8tiAjDyWhb9bCG",
+    "access_key_id": "ASIAZV3A2ECZL2VXFUTM",
+    "secret_access_key": "eqzYWaWhoIMoJVApAjLTW20Z+O2stodP204ADYcl",
+    "session_token": "IQoJb3JpZ2luX2VjED0aCXVzLWVhc3QtMSJGMEQCICdi3XN9svW348LO2jJuicx/MLiZ8IGDRdrtu9GtxSMMAiA+C77sYSjn/wSKWISbnxYMrP4oabNTjTvAbnyithZ6Yir2AwgGEAQaDDY2NTM4NjA5ODg2NiIMKI3VqTHmTJfuIz4yKtMDDtoR+QtO/XFnC8LG3/ESHP8e5QhGreXwAsihjGlD05XuLxsfXm50tCykcWOFNxLgaXZ8/ChgKeAti+ql1Tny9RiLbLL8dMXyvB/n2q3rDEIpQ7cWmLC7gIYO7qr9XueDG0klJGBj7XIuRWQM2lHLS5tKSnUrUuogMheG5e3IcxLewPKz4SQeEs9Lm2G+Cb4Gr/p+GjcJXVHe8Q8RGJJAWL4yjzCKOrgC6hvfUH7bRo5ezsCyVMTIBQL3d1Y3Gd1xY7swCImDGLSjQ1DTk+qFykTPx+xMFu0RSZ0xZyM80Q1b58YJo0bwFwudmbdFcd3k7DKkrn1lsrXEBO02pGPRWLSYvErmMBnObX+jP4TKkJKAgtvb4tkbwXgp/VPSX5z+jz67Ff55CXs+qC5tnahyRjfHq6n++BDKmbvaqnsBkF6nAD9Jl7FMAkuiOqRFmMb0kN0ECZvPQSqJZmAOYv/F9dI1DZF3TEaMnBnN3CTJ+nx1VDd6DNoV+xekSMyS8fLkCI2t7SoISo9y+CIYnd6tvy66yQfIdvB0QH2xIDGg8/LEnmW4GZKl+m1gA+KbRyMOuTq0vRPyBzilupoymA9i9BQ7BzCyf1GyXiYiV8FxsN9k3k0wldvk0QY6ngHbQJL6i3A+Zi0ZAq0MPwyqW4lo/4yvmuG1ATU7Uf3mT6uUjLEXfFr9bv1E5awsWY4wPBtkO4FnRKSMeLT5j4YgJ9pJ3EWPbLcecPfKoof8Z9DNQss4bM69XsXyvl0V6K/rR7DjqBtvZB+VyRmMhsPe7muOwUb6ytGpdLs7pDh/oPHHkT/iHgFLFoVpo9rIWwWobaOJXPxHbGNvo0o5+g==",
+    "expiration": "2026-06-23T00:41:57.000Z",
+    "backend": "GIT_BACKEND_S3"
+  },
+  "name": "familje-dashboard",
+  "path": "/home/ubuntu/familje-dashboard",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "a2RLibuhRUquyWzkZ6otRc",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "crVCnFnVqHW8ZaqcVpjRsG",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Mohammed Abdulkader",
+    "OWNER_OPEN_ID": "kgVwGDkBQnc4rYw6ZPbJfm",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "dfa6141e-80ac-4e18-991e-75f1d4854b59",
+    "VITE_APP_ID": "namgH39r8tiAjDyWhb9bCG",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663782304152/hZwDjLxUKvruYXwk.png",
+    "VITE_APP_TITLE": "Familje Dashboard",
+    "VITE_FRONTEND_FORGE_API_KEY": "ZWJ6kWNbG48PEyy2B4uDYQ",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
